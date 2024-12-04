@@ -1,0 +1,13 @@
+[2024-11-25 12:10:54,129] 22 root -INFO -Data ingestion starts
+[2024-11-25 12:10:54,130] 26 root -INFO -Dataset readed
+[2024-11-25 12:10:54,130] 18 root -INFO -fetching data from Mongo DB has started
+[2024-11-25 12:10:54,146] 27 root -INFO -fetching data from Mongo DB has finished
+[2024-11-25 12:10:54,151] 36 root -INFO -Train test split
+[2024-11-25 12:10:54,154] 39 root -INFO -x_train DataFrame Head:
+      age     sex   bmi  children smoker     region
+1322   62    male  38.8         0     no  southeast
+505    37    male  30.9         3     no  northwest
+1121   46    male  38.2         2     no  southeast
+674    44  female  43.9         2    yes  southeast
+119    37  female  23.4         2     no  northwest
+[2024-11-25 12:10:54,158] 47 root -INFO -Ingestion of data completed

@@ -1,0 +1,36 @@
+[2024-11-25 12:12:23,637] 22 root -INFO -Data ingestion starts
+[2024-11-25 12:12:23,637] 26 root -INFO -Dataset readed
+[2024-11-25 12:12:23,637] 18 root -INFO -fetching data from Mongo DB has started
+[2024-11-25 12:12:23,651] 27 root -INFO -fetching data from Mongo DB has finished
+[2024-11-25 12:12:23,657] 36 root -INFO -Train test split
+[2024-11-25 12:12:23,660] 39 root -INFO -x_train DataFrame Head:
+      age     sex   bmi  children smoker     region
+1322   62    male  38.8         0     no  southeast
+505    37    male  30.9         3     no  northwest
+1121   46    male  38.2         2     no  southeast
+674    44  female  43.9         2    yes  southeast
+119    37  female  23.4         2     no  northwest
+[2024-11-25 12:12:23,664] 47 root -INFO -Ingestion of data completed
+[2024-11-25 12:12:23,664] 61 root -INFO -Data transformastion statrts
+[2024-11-25 12:12:23,691] 64 root -INFO -Read train and test data
+[2024-11-25 12:12:23,694] 65 root -INFO -Train DataFrame head
+   age     sex   bmi  children smoker     region  expenses
+0   62    male  38.8         0     no  southeast  12981.35
+1   37    male  30.9         3     no  northwest   6796.86
+2   46    male  38.2         2     no  southeast   8347.16
+3   44  female  43.9         2    yes  southeast  46200.99
+4   37  female  23.4         2     no  northwest   6686.43
+[2024-11-25 12:12:23,696] 66 root -INFO -Test DataFrame Head:
+   age     sex   bmi  children smoker     region  expenses
+0   36  female  25.8         0     no  northwest   5266.37
+1   36  female  25.9         1     no  southwest   5472.45
+2   52  female  23.2         0     no  northeast  10197.77
+3   36    male  28.0         1    yes  northeast  20773.63
+4   45  female  35.3         0     no  southwest   7348.14
+[2024-11-25 12:12:23,696] 67 root -INFO -starting Pipeline
+[2024-11-25 12:12:23,696] 26 root -INFO -Data Transformation initiated
+[2024-11-25 12:12:23,696] 32 root -INFO -Pipeline has started
+[2024-11-25 12:12:23,696] 51 root -INFO -Pipeline Completed
+[2024-11-25 12:12:23,696] 71 root -INFO -Splitting train data as input target
+[2024-11-25 12:12:23,714] 82 root -INFO -Pipeline is Completed
+[2024-11-25 12:12:23,716] 87 root -INFO -Data Transformed
